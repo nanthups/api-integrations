@@ -5,7 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Laravel</title>
-
+        <form action="{{ route('zoom.user') }}" method="POST" >
+                @csrf
+                <button type="submit">zoom</button>
+                </form>
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
