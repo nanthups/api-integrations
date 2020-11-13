@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dfe4a7b6d90b31b032444b322a1d6183",
+    "content-hash": "6522fec4338f1bd707cadd27fa6c2cc8",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -4374,6 +4374,72 @@
                 "source": "https://github.com/tijsverkoyen/CssToInlineStyles/tree/2.2.3"
             },
             "time": "2020-07-13T06:12:54+00:00"
+        },
+        {
+            "name": "vaporic/laravel-zoom",
+            "version": "1.0.24",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vaporic/laravel-zoom.git",
+                "reference": "cf4d51a4a30f7794f854c91cc79264d5a1bf25cd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vaporic/laravel-zoom/zipball/cf4d51a4a30f7794f854c91cc79264d5a1bf25cd",
+                "reference": "cf4d51a4a30f7794f854c91cc79264d5a1bf25cd",
+                "shasum": ""
+            },
+            "require": {
+                "firebase/php-jwt": "^5.0",
+                "guzzlehttp/guzzle": "~6.0|~5.0|~4.0",
+                "illuminate/support": "^5.2",
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^4.0",
+                "phpunit/phpunit": "^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "vaporic\\Zoom\\Providers\\ZoomServiceProvider"
+                    ],
+                    "aliases": {
+                        "Zoom": "vaporic\\Zoom\\Facades\\Zoom"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "vaporic\\Zoom\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Colin Hall",
+                    "email": "colin@macsi.co.uk",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Laravel Zoom package",
+            "homepage": "https://github.com/vaporic/laravel-zoom",
+            "keywords": [
+                "api",
+                "client",
+                "laravel",
+                "laravel-zoom",
+                "vaporic",
+                "zoom"
+            ],
+            "support": {
+                "source": "https://github.com/vaporic/laravel-zoom/tree/master"
+            },
+            "time": "2020-03-22T17:30:18+00:00"
         },
         {
             "name": "vlucas/phpdotenv",

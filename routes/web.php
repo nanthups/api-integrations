@@ -14,4 +14,4 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::post('zoom_user', 'HomeController@zoom')->name('zoom.user');
+Route::post('zoom_user', 'HomeController@zoomVap')->name('zoom.user');
